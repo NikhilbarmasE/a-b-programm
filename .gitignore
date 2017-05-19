@@ -1,52 +1,12 @@
-# Prerequisites
-*.d
+#include<stdio.h>
+#include<conio.h>
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+int main()
+{
+int a,b;
+printf("enter the two number for adding:");
+scanf("%d%d",&a,&b);
+printf("%d",a+b);
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+getch();
+}
